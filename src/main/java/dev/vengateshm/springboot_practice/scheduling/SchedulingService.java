@@ -7,9 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class SchedulingService {
-//        @Scheduled(fixedRate = 3_000)
+//    @Scheduled(fixedRate = 3_000)
 //    @Scheduled(fixedDelay = 3_000, initialDelay = 5_000)
-@Scheduled(cron = "0 22 16 * * MON-FRI")
+//    @Scheduled(cron = "0 22 16 * * MON-FRI")
+    @Scheduled(cron = "${app.cron.value}")
     public void fixedRateScheduling() {
         log.info("Hi");
 //        try {
