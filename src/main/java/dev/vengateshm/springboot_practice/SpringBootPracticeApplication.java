@@ -32,6 +32,9 @@ public class SpringBootPracticeApplication {
 
         TimeConfig timeConfig = context.getBean(TimeConfig.class);
         System.out.println("Time config : " + timeConfig);
+
+        DataSizeConfig dataSizeConfig = context.getBean(DataSizeConfig.class);
+        System.out.println("Data size config : " + dataSizeConfig);
     }
 
 }
