@@ -1,12 +1,12 @@
-package com.vengateshm.practice.SpringBootPractice.dto;
+package dev.vengateshm.springboot_practice.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.vengateshm.practice.SpringBootPractice.validation.ValidateEmployeeType;
+import dev.vengateshm.springboot_practice.validation.ValidateEmployeeType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.*;
+import jakarta.validation.constraints.*;
 import java.util.Date;
 
 @Data

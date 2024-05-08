@@ -1,4 +1,4 @@
-package com.vengateshm.practice.SpringBootPractice.async;
+package dev.vengateshm.springboot_practice.async;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

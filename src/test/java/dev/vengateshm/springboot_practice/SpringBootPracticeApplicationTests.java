@@ -1,4 +1,4 @@
-package com.vengateshm.practice.SpringBootPractice;
+package dev.vengateshm.springboot_practice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

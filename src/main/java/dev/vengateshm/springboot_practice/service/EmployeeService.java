@@ -1,6 +1,6 @@
-package com.vengateshm.practice.SpringBootPractice.service;
+package dev.vengateshm.springboot_practice.service;
 
-import com.vengateshm.practice.SpringBootPractice.dto.Employee;
+import dev.vengateshm.springboot_practice.dto.Employee;
 import org.springframework.stereotype.Service;
 
 import java.util.Random;

@@ -1,4 +1,4 @@
-package com.vengateshm.practice.SpringBootPractice.async;
+package dev.vengateshm.springboot_practice.async;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

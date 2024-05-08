@@ -1,4 +1,4 @@
-package com.vengateshm.practice.SpringBootPractice.handler;
+package dev.vengateshm.springboot_practice.handler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;

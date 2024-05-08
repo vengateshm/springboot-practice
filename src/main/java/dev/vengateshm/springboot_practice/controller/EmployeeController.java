@@ -1,11 +1,11 @@
-package com.vengateshm.practice.SpringBootPractice.controller;
+package dev.vengateshm.springboot_practice.controller;
 
-import com.vengateshm.practice.SpringBootPractice.dto.Employee;
-import com.vengateshm.practice.SpringBootPractice.service.EmployeeService;
+import dev.vengateshm.springboot_practice.dto.Employee;
+import dev.vengateshm.springboot_practice.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import java.util.List;
 
 @RestController

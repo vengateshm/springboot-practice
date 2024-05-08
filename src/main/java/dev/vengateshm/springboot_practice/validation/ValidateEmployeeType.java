@@ -1,7 +1,7 @@
-package com.vengateshm.practice.SpringBootPractice.validation;
+package dev.vengateshm.springboot_practice.validation;
 
-import javax.validation.Constraint;
-import javax.validation.Payload;
+import jakarta.validation.Constraint;
+import jakarta.validation.Payload;
 import java.lang.annotation.*;
 
 @Target({ElementType.FIELD, ElementType.PARAMETER})
