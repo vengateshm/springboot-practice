@@ -1,9 +1,6 @@
 package dev.vengateshm.springboot_practice;
 
-import dev.vengateshm.springboot_practice.configuration.ArtemisConfig;
-import dev.vengateshm.springboot_practice.configuration.ArtemisConfigPrefix;
-import dev.vengateshm.springboot_practice.configuration.BlueMoonConfig;
-import dev.vengateshm.springboot_practice.configuration.RecordClassConfig;
+import dev.vengateshm.springboot_practice.configuration.*;
 import dev.vengateshm.springboot_practice.custom_properties_converters.ArtemisMediaConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -32,6 +29,9 @@ public class SpringBootPracticeApplication {
 
         RecordClassConfig recordClassConfig = context.getBean(RecordClassConfig.class);
         System.out.println("Record class config : " + recordClassConfig);
+
+        TimeConfig timeConfig = context.getBean(TimeConfig.class);
+        System.out.println("Time config : " + timeConfig);
     }
 
 }
