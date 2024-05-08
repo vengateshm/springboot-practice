@@ -8,7 +8,7 @@
         <version>3.2.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.vengateshm.practice</groupId>
+    <groupId>dev.vengateshm.springboot_practice</groupId>
     <artifactId>SpringBootPractice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringBootPractice</name>
@@ -47,14 +47,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.2.5</version>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
             </plugin>
         </plugins>
     </build>

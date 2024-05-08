@@ -1,2 +1,19 @@
 artemis:
   data: Like
+
+bluemoon:
+  id: 1
+  github-repo: bluemoon-official
+  description: like and comment!
+  latestVideo:
+    id: 100
+    title: Spring Boot Config
+    lengthInSeconds: 600
+  playlists:
+    - Java
+    - Kotlin
+    - Devops
+  nbrOfVideos:
+    JavaTutorials: 3
+    KotlinTutorials: 5
+    DevopsTutorials: 2
