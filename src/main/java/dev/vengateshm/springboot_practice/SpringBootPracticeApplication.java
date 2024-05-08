@@ -2,6 +2,7 @@ package dev.vengateshm.springboot_practice;
 
 import dev.vengateshm.springboot_practice.configuration.ArtemisConfig;
 import dev.vengateshm.springboot_practice.configuration.ArtemisConfigPrefix;
+import dev.vengateshm.springboot_practice.custom_properties_converters.ArtemisMediaConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,6 +18,9 @@ public class SpringBootPracticeApplication {
         System.out.println("Artemis data : " + artemisConfig.getData());
         System.out.println("Artemis data from env : " + artemisConfig.getDataViaEnv());
         System.out.println("Artemis prefix config : " + artemisConfigPrefix.getAction());
+
+        ArtemisMediaConfig artemisMediaConfig = context.getBean(ArtemisMediaConfig.class);
+        System.out.println("Artemis media config : " + artemisMediaConfig.getLatestVideo().toString());
     }
 
 }
