@@ -14,13 +14,11 @@ import org.springframework.stereotype.Component;
 public class LoggingAspect {
     @Before("execution(* dev.vengateshm.springboot_practice.aosp.service.CourseService.*(..))")
     public void beforeServiceMethods(JoinPoint joinPoint) throws JsonProcessingException {
-        System.out.println("LoggingAspect: Before executing service method");
-        log.info("@Before :: class name {}", joinPoint.getTarget());
+        log.info("@Before :: class name {} method name {}", joinPoint.getTarget(), joinPoint.getSignature());
     }
 
     @After("execution(* dev.vengateshm.springboot_practice.aosp.service.CourseService.*(..))")
     public void afterServiceMethods(JoinPoint joinPoint) throws JsonProcessingException {
-        System.out.println("LoggingAspect: Before executing service method");
-        log.info("@After :: class name {}", joinPoint.getTarget());
+        log.info("@After :: class name {} method name {}", joinPoint.getTarget(), joinPoint.getSignature());
     }
 }
